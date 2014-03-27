@@ -4,8 +4,8 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_github_springroo_createupdate_domain_Partner" modelAttribute="partner" path="/partners" render="${empty dependencies}" z="zfdUoogh8oe5BBeblAaXpUrgiRg=">
         <field:input field="name" id="c_com_github_springroo_createupdate_domain_Partner_name" required="true" z="H9BMdpCsg/K2fVdwKhzjIoF4a/4="/>
-        <field:datetime dateTimePattern="${partner_createddate_date_format}" field="createdDate" id="c_com_github_springroo_createupdate_domain_Partner_createdDate" required="true" z="kfvB+WGRr9B2dQ2vgTaWfxFm6M0="/>
-        <field:datetime dateTimePattern="${partner_modifieddate_date_format}" field="modifiedDate" id="c_com_github_springroo_createupdate_domain_Partner_modifiedDate" required="true" z="ngGXTorR19B0KXZ+5CbKNn139ms="/>
+        <field:datetime dateTimePattern="${partner_createddate_date_format}" field="createdDate" id="c_com_github_springroo_createupdate_domain_Partner_createdDate" render="false" required="true" z="user-managed"/>
+        <field:datetime dateTimePattern="${partner_modifieddate_date_format}" field="modifiedDate" id="c_com_github_springroo_createupdate_domain_Partner_modifiedDate" render="false" required="true" z="user-managed"/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_github_springroo_createupdate_domain_Partner" render="${not empty dependencies}" z="oXvJKbnP+MWS8LI09wy9mjJXJnQ="/>
 </div>
