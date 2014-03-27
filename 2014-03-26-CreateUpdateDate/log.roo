@@ -1,0 +1,7 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-03-26 20:00:00
+project --topLevelPackage com.github.springroo.createupdate
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity jpa --class ~.domain.Partner --testAutomatically
+field string --fieldName name --notNull
+field date --type java.util.Calendar --fieldName createdDate --notNull
+field date --type java.util.Calendar --fieldName modifiedDate --notNull
