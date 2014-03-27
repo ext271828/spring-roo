@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_github_springroo_createupdate_domain_Partner" items="${partners}" z="iT4LaVcROXIpnJJ4lI+cCbSDJVk=">
+        <table:table data="${partners}" id="l_com_github_springroo_createupdate_domain_Partner" path="/partners" z="SBl1fXjMFbIxTgYZv2IZIDeCIYE=">
+            <table:column id="c_com_github_springroo_createupdate_domain_Partner_name" property="name" z="vwvToxzcyX/nqxzTIvlBK4O/EHs="/>
+            <table:column calendar="true" dateTimePattern="${partner_createddate_date_format}" id="c_com_github_springroo_createupdate_domain_Partner_createdDate" property="createdDate" z="fLa5BESPaQhvphlHJlhTNArH7UY="/>
+            <table:column calendar="true" dateTimePattern="${partner_modifieddate_date_format}" id="c_com_github_springroo_createupdate_domain_Partner_modifiedDate" property="modifiedDate" z="PpkE9vtSgTLXtUtbLB2utZ/Ptok="/>
+        </table:table>
+    </page:list>
+</div>

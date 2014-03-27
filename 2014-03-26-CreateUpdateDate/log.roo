@@ -6,3 +6,4 @@ field string --fieldName name --notNull
 field date --type java.util.Calendar --fieldName createdDate --notNull
 field date --type java.util.Calendar --fieldName modifiedDate --notNull
 web mvc setup
+web mvc all --package ~.web
