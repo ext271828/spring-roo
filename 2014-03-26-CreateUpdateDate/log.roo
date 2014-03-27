@@ -5,3 +5,4 @@ entity jpa --class ~.domain.Partner --testAutomatically
 field string --fieldName name --notNull
 field date --type java.util.Calendar --fieldName createdDate --notNull
 field date --type java.util.Calendar --fieldName modifiedDate --notNull
+web mvc setup
